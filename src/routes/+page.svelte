@@ -5,7 +5,7 @@
 	import Hero from '$lib/components/Home/Hero.svelte';
 	import Features from '$lib/components/Home/Features.svelte';
 	import Products from '$lib/components/Home/Products.svelte';
-	import Faq from '$lib/components/Home/Faq.svelte';
+	import Faq from '$lib/components/Home/FAQ/qna.svelte';
 	const accordions = [1, 2, 3, 4, 5];
 </script>
 
