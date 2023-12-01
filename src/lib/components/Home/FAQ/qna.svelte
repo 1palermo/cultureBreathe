@@ -1,5 +1,8 @@
 <script>
     import Questions from "./questions.svelte";
+    import Accordion from "./Accordion.svelte";
+	const accordions = [1, 2, 3, 4, 5];
+    let number=0;
 </script>
 
 <div class="my-10 lg:mx-32">
@@ -30,4 +33,11 @@
     <Questions
         question="How can I contact The Big Blockers Community for further inquiries?"
         answer="You can connect with us through our socials or write your query on- (provide community email)"/>
+</div>
+
+
+<div class="space-y-2">
+		{#each accordions as accordion}
+			<Accordion number={accordion} />
+		{/each}
 </div>
